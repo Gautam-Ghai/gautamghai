@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../css/card.css"
+import "../css/card.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitterSquare, faGithubSquare, faLinkedin, faDev} from '@fortawesome/free-brands-svg-icons';
 import gautam from "../images/gautam.jpg";
