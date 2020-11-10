@@ -1,11 +1,15 @@
-import './App.css';
 import Card from "./components/card"
+import "./App.css"
 
 function App() {
   return (
-    <main className="container">
-        <Card  />
-      </main>
+      <div className="section">
+        <div className="container">
+          <div className="column">
+            <Card  />
+          </div>
+        </div>
+      </div>
   );
 }
 
