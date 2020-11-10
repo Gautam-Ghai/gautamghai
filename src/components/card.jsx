@@ -24,20 +24,21 @@ class Card extends Component {
         var class1="col-sm px-0";
         var class2="col-sm";
             if(this.state.width <= 820) {
-                class1 = " mx-auto px-0";
+                class1 = "mx-auto px-0";
                 class2 = "text-center w-100";
             }
         return ( 
             <div className="card flex-row flex-wrap">
                 <div className={class1}>
-                    <img src={gautam} alt="Gautam Ghai" height="300" width="225"/>
+                    <img src={gautam} alt="Gautam Ghai" height="290" width="220"/>
                 </div>
                 <div className={class2}>
                     <div className="card-body">
-                        <h5 className="card-header border-0 w-100">Hello, I'm Gautam</h5>
-                        <p className="card-text"></p>
+                        <h5 className="card-header border-0 w-100">Hi, I'm Gautam</h5>
+                        <p className="card-text text-center">21 year old
+                        <br />Web Developer<br />JavaScript Fanatic <br /> FM addict<br />(He/Him)</p>
                     </div>
-                    <div className="card-footer border-0 w-100">
+                    <div className="card-footer border-0 w-100 ">
                         <a href="https://dev.to/gautamghai" className="btn"><FontAwesomeIcon icon={faDev}/></a>
                         <a href="https://github.com/gautam-ghai" className="btn"><FontAwesomeIcon icon={faGithubSquare}/></a>
                         <a href="https://linkedin.com/in/gautam-ghai" className="btn"><FontAwesomeIcon icon={faLinkedin} /></a>
