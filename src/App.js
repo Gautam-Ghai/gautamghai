@@ -1,10 +1,12 @@
 import Card from "./components/card"
 import "./App.scss"
+import Footer from "./components/footer"
 import Particles from 'react-particles-js';
+
 
 function App() {
   return (
-      <div className="section">
+      <div className="container-fluid section">
         <Particles 
         params={{ 
           particles: { 
@@ -28,12 +30,13 @@ function App() {
         width="100%"
 
         height="100vh"
-      /> 
+        /> 
         <div className="container">
           <div className="column">
             <Card  />
           </div>
         </div>
+        <Footer />
       </div>
   );
 }
