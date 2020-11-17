@@ -1,44 +1,28 @@
-import Card from "./components/card"
+import React from 'react';
 import "./App.scss"
+import Tabs from './components/tabs';
+import Info from "./components/info"
 import Footer from "./components/footer"
-import Particles from 'react-particles-js';
-
+import Header from "./components/header"
+import ScrollArrow from "./components/scrollArrow"
+import Pdf from "./components/pdf"
+import WorkHistory from "./components/workHistory"
+import About from "./components/about"
 
 function App() {
   return (
-      <div className="container-fluid section">
-        <Particles 
-        params={{ 
-          particles: { 
-            number: { 
-              value: 100, 
-              density: { 
-                enable: true, 
-                value_area: 1000, 
-              } 
-            },
-          },
-          interactivity: {
-            events: {
-                onhover: {
-                    enable: true,
-                    mode: "repulse"
-                }
-            }
-        } 
-        }}
-        width="100%"
-
-        height="100vh"
-        /> 
-        <div className="container">
-          <div className="column">
-            <Card  />
-          </div>
-        </div>
-        <Footer />
-      </div>
+    <div>
+      <Header />
+      <ScrollArrow />
+      <Info />
+      <About />
+      <Tabs />
+      <WorkHistory />
+      <Pdf />
+      <Footer />
+    </div>
   );
+  
 }
 
 export default App;

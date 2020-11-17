@@ -1,0 +1,11 @@
+.navbar {
+  position: fixed;
+  background-color: rgba(60, 60, 60, 0.5);
+}
+.nav-link {
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(60, 60, 60);
+    color: white;
+  }
+}
