@@ -19,6 +19,7 @@ function App() {
       <Tabs />
       <WorkHistory />
       <Pdf />
+      <div><br /><br /></div>
       <Footer />
     </div>
   );
