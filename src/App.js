@@ -5,7 +5,6 @@ import Info from "./components/info"
 import Footer from "./components/footer"
 import Header from "./components/header"
 import ScrollArrow from "./components/scrollArrow"
-import Pdf from "./components/pdf"
 import WorkHistory from "./components/workHistory"
 import About from "./components/about"
 
@@ -18,7 +17,6 @@ function App() {
       <About />
       <Tabs />
       <WorkHistory />
-      <Pdf />
       <div><br /><br /></div>
       <Footer />
     </div>

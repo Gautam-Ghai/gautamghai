@@ -10,13 +10,12 @@ class WorkHistory extends Component {
         return (
           <div style={{backgroundColor: "#e3e3e3"}} id="WorkExp">
             <h1 style={{fontFamily: "Verdana"}} className="text-center">Experience</h1>
+            <br />
 <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(31, 40, 51)', color: '#848484' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(31, 40, 51)' }}
     date="November, 2020 - December, 2020"
-    iconStyle={{ background: 'rgb(31, 40, 51)', color: '#848484' }}
+    iconStyle={{ background: 'rgb(31, 40, 51)', color: '#ffffff' }}
     icon={<FontAwesomeIcon icon={faWordpressSimple} size="2x"/>}
   >
     <h3 className="vertical-timeline-element-title">WordPress Developer</h3>
@@ -27,8 +26,6 @@ class WorkHistory extends Component {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(234, 231, 220)', color: '#e85a4f  ' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(234, 231, 220)' }}
     date="September, 2020 - December, 2020"
     iconStyle={{ background: 'rgb(234, 231, 220)', color: '#e85a4f  ' }}
     icon={<FontAwesomeIcon icon={faWordpressSimple} size="2x"/>}
@@ -41,8 +38,6 @@ class WorkHistory extends Component {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(255, 101, 47)', color: '#272727' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(255, 101, 47)' }}
     date="January, 2019 - May, 2019"
     iconStyle={{ background: 'rgb(255, 101, 47)', color: '#272727' }}
     icon={<FontAwesomeIcon icon={faDatabase} size="2x"/>}
@@ -55,8 +50,6 @@ class WorkHistory extends Component {
   </VerticalTimelineElement>    
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(92, 219, 149)', color: '#05386b ' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(92, 219, 149)' }}
     date="April, 2018 - July, 2018"
     iconStyle={{ background: 'rgb(92, 219, 149)', color: '#05386b ' }}
     icon={<FontAwesomeIcon icon={faDesktop} size="2x"/>}

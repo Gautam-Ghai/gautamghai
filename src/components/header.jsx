@@ -64,20 +64,6 @@ const Header = () => {
                 </Link>
                 
               </li>
-              <li className="nav-item">
-                <Link
-                  activeClass="active"
-                  to="Resume"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                  className="nav-link"
-                  >
-                  Resume
-                </Link>
-                
-              </li>
             </ul>
           </div>
         </nav>

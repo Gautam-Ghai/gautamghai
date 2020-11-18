@@ -9,6 +9,7 @@ class Tabs extends Component {
         return (
             <div id="SkillSet" style={{backgroundColor: "#d3d3d3"}}>
               <h1 style={{fontFamily: "Verdana"}} className="text-center">Skillset</h1>
+              <br />
               <nav> 
                 <ul className="nav nav-pills justify-content-center" id="nav-tab" role="tablist">
                   <li><a className="nav-item nav-link active" id="nav-front-end-tab" data-toggle="tab" href="#nav-front-end" role="tab" aria-controls="nav-front-end" aria-selected="true">Front-End</a></li>
