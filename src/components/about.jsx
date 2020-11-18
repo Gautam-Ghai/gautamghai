@@ -43,7 +43,7 @@ const About = () => {
           onLoadSuccess={onDocumentLoadSuccess}
           className="document"
         >
-          <Page pageNumber={pageNumber} height="570" width="415"/>
+          <Page pageNumber={pageNumber} height="550" width="400"/>
         </Document>
         <div>
           <p>
