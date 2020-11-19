@@ -8,7 +8,7 @@ import { faDatabase, faDesktop } from '@fortawesome/free-solid-svg-icons'
 class WorkHistory extends Component {
     render() { 
         return (
-          <div style={{backgroundColor: "#e3e3e3"}} id="WorkExp">
+          <div style={{backgroundColor: "#edf2f7"}} id="WorkExp">
             <h1 style={{fontFamily: "Verdana"}} className="text-center">Experience</h1>
             <br />
 <VerticalTimeline>

@@ -1,4 +1,4 @@
-import Card from "./card"
+import Profile from "./profile"
 import Particles from 'react-particles-js';
 import React from 'react';
 import "../css/info.scss"
@@ -10,7 +10,7 @@ const Info = (props) => {
         params={{ 
           particles: { 
             number: { 
-              value: 100, 
+              value: 150, 
               density: { 
                 enable: true, 
                 value_area: 1000, 
@@ -31,7 +31,7 @@ const Info = (props) => {
         height="100vh"
         /> 
           <div className="column">
-            <Card  />
+            <Profile  />
           </div>
       </div>
     );

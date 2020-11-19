@@ -19,7 +19,7 @@ const Header = () => {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  className="nav-link"
+                  className="nav-link head_link"
                   >
                     Home
                 </Link>
@@ -32,7 +32,7 @@ const Header = () => {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  className="nav-link"
+                  className="nav-link head_link"
                   >
                     About
                 </Link>
@@ -45,7 +45,7 @@ const Header = () => {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  className="nav-link"
+                  className="nav-link head_link"
                   >
                   Skills
                 </Link>
@@ -58,7 +58,7 @@ const Header = () => {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  className="nav-link"
+                  className="nav-link head_link"
                   >
                   Work Experience
                 </Link>
