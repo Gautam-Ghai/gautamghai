@@ -10,7 +10,7 @@ const Profile = () => {
         
         <div>
              <input id="slider" className="customSlider" type="checkbox" />
-            <label for="slider"></label>
+            <label htmlFor="slider"></label>
             <div className="wrapper">
                 <div className="profile">
                     <img src={gautam} className="thumbnail" alt="Gautam Ghai" />
