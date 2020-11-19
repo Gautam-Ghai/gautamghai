@@ -8,7 +8,7 @@
 .animatedTextContent {
   font-size: 75px;
   font-weight: 250;
-  font-family: Verdana;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   line-height: 1;
   letter-spacing: 2px;
   text-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);
@@ -17,7 +17,7 @@
 .animatedTextContentClone {
   font-size: 75px;
   font-weight: 250;
-  font-family: Verdana;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   line-height: 1;
   letter-spacing: 2px;
   text-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);
