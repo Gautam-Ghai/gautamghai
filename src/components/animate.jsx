@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import classes from "../css/animateText.module.css";
+import classes from "../animateText.module.css";
 
 const Animate = ({ textColor, overlayColor, children, ...props }) => {
     const containerElem = useRef(null);
