@@ -3,7 +3,6 @@ import "../css/about.scss"
 import { Document, Page, pdfjs } from 'react-pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faArrowLeft, faFileDownload } from '@fortawesome/free-solid-svg-icons'
-import { Animate } from "./animate"
 import samplePDF from "../utils/GautamGhai_Resume.pdf"
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -34,7 +33,7 @@ const About = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-xs-12 col-md-6 ">
-                      <Animate textColor="#ffffff" overlayColor="#011f41">Hi, I am Gautam Ghai</Animate><br />
+                      <br /><h1 className="boldName">Hi, I'm Gautam Ghai</h1>
                         <p>I am a web developer who likes to work with JavaScript. I am pursuing my Bachelors of Computer Information Systems from University of the Fraser Valley, Abbotsford, BC, Canada.</p>
                         <p>Apart from this, I love to watch football and talk about it all day. I am also a Football Manager addict which means if I start playing once, I won't stop for the next 2-3 hours. Other than that, I also like to read and write.</p>
                     </div>
