@@ -21,7 +21,7 @@ const Animate = ({ textColor, overlayColor, children, ...props }) => {
 
   const handleMouseOut = () => setMousePos(initialMousePos);
     return (
-        <section
+        <section  
       className="animatedTextContainer"
       style={{
         "--maskX": mousePos.x,
