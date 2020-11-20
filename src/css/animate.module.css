@@ -1,8 +1,6 @@
 .animatedTextContainer {
   position: relative;
   cursor: grab;
-  --maskX: 0;
-  --maskY: 0;
 }
 .animatedTextContent {
   font-size: 75px;
