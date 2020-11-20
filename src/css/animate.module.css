@@ -1,7 +1,6 @@
 .animatedTextContainer {
   position: relative;
   cursor: grab;
-  user-select: none;
   --maskX: 0;
   --maskY: 0;
 }
