@@ -1,22 +1,31 @@
 import React from 'react';
-import ProgressBar from '@ramonak/react-progress-bar';
+import nodejs from "../utils/nodejs.svg"
+import mongodb from "../utils/mongodb.svg"
+import mysql from "../utils/mysql.svg"
+import "../css/skills.css"
 
 const BackEnd = () => {
     return (  
         <div className="container">
             <br />
-            <div className="row">
-                <div className="col-3"><p>NodeJS </p></div>
-                <div className="col"><ProgressBar completed={60} width="100%"/></div>
-            </div>
-            <div className="row">
-                <div className="col-3"><p>MongoDB </p></div>
-                <div className="col"><ProgressBar completed={70} width="100%"/></div>
-            </div>
-            <div className="row">
-                <div className="col-3"><p>MySql </p></div>
-                <div className="col"><ProgressBar completed={70} width="100%"/></div>
-            </div>
+            <div className="card-columns">
+				<div className="card">
+					<div className="card-body">
+						<img src={mongodb} alt="MongoDB" className="img-logo" />
+					</div>
+				</div>
+				<div className="card">
+					<div className="card-body">
+						<img src={nodejs} alt="NodeJS" className="img-logo" />
+					</div>
+				</div>
+				<div className="card">
+					<div className="card-body">
+						<img src={mysql} alt="MySQL" className="img-logo" />
+					</div>
+				</div>
+			</div>
+            <br />
         </div>
     );
 }

@@ -24,7 +24,10 @@ const Info = (props) => {
                     mode: "repulse"
                 }
             }
-        } 
+        },
+        style: {
+          color: "black",
+        }
         }}
         width="100%"
 

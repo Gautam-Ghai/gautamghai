@@ -8,11 +8,11 @@ import "../css/tabs.scss"
 class Tabs extends Component {
     render() { 
         return (
-            <div id="SkillSet" style={{backgroundColor: "#edf2f7"}}>
-              <h1 style={{fontFamily: "Verdana"}} className="text-center">Skillset</h1>
+            <div id="SkillSet" style={{backgroundColor: "#edf2f7", color: "black"}}>
+              <h1 style={{fontFamily: "Verdana", color: "#1B2735"}} className="text-center">Skillset</h1>
               <br />
                 <ul className="nav nav-pills justify-content-center">
-                  <li className="nav-item pill-1"><a className="nav-link" data-toggle="tab" href="#nav-front-end">Front-End</a></li>
+                  <li className="nav-item pill-1"><a className="nav-link active" data-toggle="tab" href="#nav-front-end">Front-End</a></li>
                   <li className="nav-item pill-2"><a className="nav-link" data-toggle="tab" href="#nav-back-end">Back-End</a></li>
                   <li className="nav-item pill-3"><a className="nav-link" data-toggle="tab" href="#nav-cms">CMS</a></li>
                 </ul>

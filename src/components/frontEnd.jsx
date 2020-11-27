@@ -1,35 +1,50 @@
 import React from 'react';
-import ProgressBar from '@ramonak/react-progress-bar';
+import html from "../utils/html.svg"
+import css from "../utils/css.svg"
+import sass from "../utils/sass.svg"
+import javascript from "../utils/javascript.svg"
+import bootstrap from "../utils/bootstrap.svg"
+import react from "../utils/react.svg"
+
 
 const FrontEnd = () => {
     return (  
         <div className="container">
             <br />
-        <div className="row">
-            <div className="col-3"><p>HTML </p></div>
-            <div className="col"><ProgressBar completed={90} width="100%"/></div>
+            <div className="card-columns">
+				<div className="card">
+					<div className="card-body">
+						<img src={html} alt="HTML5" className="img-logo" />
+					</div>
+				</div>
+				<div className="card">
+					<div className="card-body">
+						<img src={css} alt="CSS3" className="img-logo" />
+					</div>
+				</div>
+				<div className="card">
+					<div className="card-body">
+						<img src={bootstrap} alt="Bootstrap5" className="img-logo" />
+					</div>
+				</div>
+				<div className="card">
+					<div className="card-body">
+						<img src={sass} alt="SASS" className="img-logo" />
+					</div>
+				</div>
+				<div className="card">
+					<div className="card-body">
+						<img src={javascript} alt="JavaScript3" className="img-logo" />
+					</div>
+				</div>
+				<div className="card">
+					<div className="card-body">
+						<img src={react} alt="ReactJS" className="img-logo" />
+					</div>
+				</div>
+			</div>
+			<br />
         </div>
-        <div className="row">
-            <div className="col-3"><p>CSS </p></div>
-            <div className="col"><ProgressBar completed={75} width="100%"/></div>
-        </div>
-        <div className="row">
-            <div className="col-3"><p>JavaScript </p></div>
-            <div className="col"><ProgressBar completed={60} width="100%"/></div>
-        </div>
-        <div className="row">
-            <div className="col-3"><p>SASS </p></div>
-            <div className="col"><ProgressBar completed={30} width="100%"/></div>
-        </div>
-        <div className="row">
-            <div className="col-3"><p>Bootstrap </p></div>
-            <div className="col"><ProgressBar completed={85} width="100%"/></div>
-        </div>
-        <div className="row">
-            <div className="col-3"><p>ReactJS </p></div>
-            <div className="col"><ProgressBar completed={40} width="100%"/></div>
-        </div>
-    </div>
     );
 }
  

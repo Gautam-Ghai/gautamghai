@@ -6,6 +6,8 @@ import Header from "./components/header"
 import ScrollArrow from "./components/scrollArrow"
 import WorkHistory from "./components/workHistory"
 import About from "./components/about"
+import Projects from "./components/projects"
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <About />
       <Tabs />
       <WorkHistory />
+      <Projects />
       <div><br /></div>
     </div>
   );

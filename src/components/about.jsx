@@ -27,8 +27,8 @@ const About = () => {
       changePage(1);
     }
     return (
-        <div className="division text-light" id="About">
-            <h1 style={{fontFamily: "Verdana"}} className="text-center">About</h1>
+        <div className="division text-ldark" id="About">
+            <h1 style={{fontFamily: "Verdana", color: "#1B2735"}} className="text-center">About</h1>
             <br />
             <div className="container">
                 <div className="row">
@@ -68,7 +68,7 @@ const About = () => {
           </button>&nbsp;
           <a href={samplePDF} className="btn btn-dark"><FontAwesomeIcon icon={faFileDownload} size="lg"/></a>
         </div>
-                        <p></p>
+                        
                     </div>
                 </div>
                 <br />
