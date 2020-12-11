@@ -1,7 +1,8 @@
 .division {
   height: auto;
   width: 100%;
-  background-color: #edf2f7;
+  background-color: #e3e3e3;
+  padding-top: 2.5rem;
 }
 .document {
   display: flex;
@@ -15,10 +16,19 @@
   }
 }
 
+.pageTitle {
+  font-family: "Courier", "sans-serif";
+  color: #1b2735;
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
 .boldName {
   font-size: 75px;
-  color: #1B2735;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #1b2735;
+  font-family: "Comic Sans MS", "sans-serif";
   line-height: 1;
   letter-spacing: 2px;
   text-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);

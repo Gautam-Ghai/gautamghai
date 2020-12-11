@@ -6,8 +6,8 @@ import "../css/projects.css"
 
 const Projects = () => {
     return (  
-		<div className="projects">
-		<h1 style={{fontFamily: "Verdana", color: "#1B2735"}} className="text-center">Projects</h1>
+		<div className="projects" id="Projects">
+		<h1 className=" pageTitle text-center">Projects</h1>
         <div className="container">
             <br />
             <div className="row">
@@ -43,6 +43,7 @@ const Projects = () => {
                 </div>
             </div>
         </div>
+        <br />
 		</div>
     );
 }

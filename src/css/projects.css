@@ -1,8 +1,19 @@
 .projects {
   height: auto;
   width: 100%;
-  background-color: #edf2f7;
+  background-color: #ffffff;
+  padding-top: 2.5rem;
 }
+
+.pageTitle {
+  font-family: "Courier", "sans-serif";
+  color: #1b2735;
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
 .flip-container {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -46,6 +57,7 @@
 
 .back {
   transform: rotateY(180deg);
+  background-color: #edf2f7;
 }
 
 .img-project {

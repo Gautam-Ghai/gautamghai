@@ -4,9 +4,12 @@
   width: 50%;
 }
 
+.card-body {
+  background-color: #fafafa;
+}
+
 .img-logo {
   padding: 5%;
   width: 130px;
   height: 130px;
 }
-

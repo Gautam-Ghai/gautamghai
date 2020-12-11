@@ -27,8 +27,8 @@ const About = () => {
       changePage(1);
     }
     return (
-        <div className="division text-ldark" id="About">
-            <h1 style={{fontFamily: "Verdana", color: "#1B2735"}} className="text-center">About</h1>
+        <div className="division" id="About">
+            <h1 className="pageTitle text-center">About</h1>
             <br />
             <div className="container">
                 <div className="row">
